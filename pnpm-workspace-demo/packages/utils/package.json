@@ -1,0 +1,25 @@
+{
+  "name": "utils",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "lib",
+    "index.d.ts"
+  ],
+  "main": "./lib/main.js",
+  "module": "./lib/main.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./lib/main.js",
+    "require": "./lib/main.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.2.10"
+  }
+}
